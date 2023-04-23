@@ -1,0 +1,25 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<PreferenceCategory android:title="@string/Game_header">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="saveGame"
+        app:summaryOff="@string/save_summary_off"
+        app:summaryOn="@string/save_summary_on"
+        android:title="@string/Game_save_title" />
+</PreferenceCategory>
+<PreferenceCategory android:title="@string/Appearance_header">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="darkTheme"
+        app:summaryOff="@string/dark_summary_off"
+        app:summaryOn="@string/dark_summary_on"
+        android:title="@string/dark_mode_title" />
+</PreferenceCategory>
+
+    </PreferenceScreen>

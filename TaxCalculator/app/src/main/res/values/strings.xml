@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Tax Calculator Free</string>
+    <string name="Hello_world">Hello World!</string>
+    <string name="Calc_Button">Calculate Tax</string>
+    <string name="Reset_Button">Reset</string>
+    <string name="Reset_Menu_Button">Reset</string>
+    <string name="Settings_Menu_Button">Settings</string>
+    <string name="Cost">Cost</string>
+    <string name="Tax_rate">Tax Rate (%)</string>
+    <string name="Clc_total">Calculated Total</string>
+    <string name="mandatory">All fields are mandatory</string>
+    <string name="title_activity_settings">Tax Calculator Settings</string>
+    <string name="costtest">test </string>
+    <string name="rattest"> testtt</string>
+    <string name="notification_message">This is just a test!</string>
+
+    <string name="reset">Reset</string>
+    <string name="settings">Settings</string>
+    <string name="stats">Statistics</string>
+
+    <string name="title_activity_stats">Tax Calculator Statistics</string>
+    <string name="stats_total_costs">Total Costs Before Tax</string>
+    <string name="stats_total_tax">Total Taxes Paid</string>
+    <string name="stats_transactions">Total Number of transactions</string>
+
+
+    <string name="calc">Calculate Tax</string>
+
+    <string name="cost">Cost</string>
+    <string name="taxrate">Tax Rate (%)</string>
+    <string name="total">Total</string>
+
+
+
+    <!-- Preference Section Titles -->
+    <string name="currency_header">Currency Options</string>
+    <string name="save_header">Save</string>
+
+    <!-- Currency Preferences -->
+    <string name="prefix_title">Currency Prefix</string>
+    <string name="decimal_title">Decimal Point</string>
+
+    <!-- Save Preferences -->
+    <string name="save_title">Save values on close</string>
+    <string name="save_summery_on">Inputs will be restored on startup</string>
+    <string name="save_summery_off">Use default values on startup</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="save_summary_on">Inputs will be restored on startup    </string>
+    <string name="save_summary_off">Use default values on startup</string>
+
+</resources>

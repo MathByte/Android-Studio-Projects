@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Rock Paper Scissors</string>
+
+    <string name="Rock_Button">Rock</string>
+    <string name="Paper_Button">Paper</string>
+    <string name="Scissors_Button">Scissors</string>
+
+    <string name="Result_View"></string>
+    <string name="Computer_Text">Computer</string>
+    <string name="You_Text">You</string>
+
+
+    <string name="notification_Title">The game is waiting for you</string>
+    <string name="notification_message">Keep on playing you know you want too!</string>
+
+
+    <string name="settings">Settings</string>
+    <string name="Statistics">Statistics</string>
+
+
+
+
+    <string name="dark_summary_on">Dark Theme will display</string>
+    <string name="dark_summary_off">Regular Theme will display</string>
+    <string name="save_summary_on">Game data will be saved</string>
+    <string name="save_summary_off">Game data will not be saved</string>
+
+
+    <string name="Win">You Win!</string>
+    <string name="Lose">The Computer Wins!</string>
+    <string name="Tie">It\'s a Tie!</string>
+    <string name="resualts">Choose rock, paper, or scissors.</string>
+
+
+
+
+
+    <string name="stats_reset">Reset Statistics</string>
+    <string name="stats_last_min">Record in last minute (W-L-T)</string>
+    <string name="stats_all_time">All-time record (W-L-T)</string>
+
+    <string name="but_reset">RESET</string>
+
+
+    <string name="Game_header">Game play</string>
+    <string name="Game_save_title">Save game on close</string>
+
+
+    <string name="Appearance_header">Appearance</string>
+    <string name="dark_mode_title">Dark theme</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+</resources>

@@ -1,0 +1,62 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Dark/Light Theme">
+        <SwitchPreferenceCompat
+            app:key="xmlDarkTheme"
+            app:title="Dark Theme" />
+
+    </PreferenceCategory>
+
+
+
+
+    <PreferenceCategory app:title="Timer">
+
+        <SwitchPreferenceCompat
+            app:key="xmlBackground"
+            app:title="Run timer in background" />
+
+        <SwitchPreferenceCompat
+            app:dependency="xmlBackground"
+            app:key="xmlNotification"
+
+            app:title="Timer notification display " />
+
+    </PreferenceCategory>
+
+
+
+    <PreferenceCategory app:title="Phone Settings">
+
+        <CheckBoxPreference
+            app:key="xmlAlarmSound"
+            app:title="Alarm sound enabled " />
+
+
+        <SeekBarPreference
+
+            app:key="xmlAlarmVolum"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:defaultValue="0"
+            android:dependency="xmlAlarmSound"
+            android:max="100"
+            app:seekBarIncrement="20" />
+
+        <CheckBoxPreference
+            app:key="xmlVibration"
+            app:title="Vibration enabled  " />
+
+        <CheckBoxPreference
+            app:key="xmlFlashLight"
+            app:title="Flash light enabled " />
+
+
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
